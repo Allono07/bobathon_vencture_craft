@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-22",
+  "note": "Curated by hand from official pages; fields marked TODO are unverified. Never edited by the refresh job: it only flags changes for human review.",
+  "programs": [
+    {
+      "id": "startup-india-seed-fund",
+      "name": "Startup India Seed Fund Scheme (SISFS)",
+      "type": "govt-scheme",
+      "provider": "DPIIT, Government of India (disbursed through selected incubators)",
+      "eligibility": {
+        "requiresDpiit": true,
+        "maxCompanyAgeYears": 2,
+        "notes": [
+          "Official page: startup must be DPIIT-recognised and incorporated not more than 2 years ago at the time of application.",
+          "TODO: verify remaining criteria (technology in core product, no prior government funding above stated limits) on the official page."
+        ]
+      },
+      "benefit": "Per the official FAQ, up to Rs 20 lakh as grant for proof of concept / prototype development / product trials, disbursed by the incubator. TODO: verify the investment-linked tranche amounts.",
+      "applyUrl": "https://seedfund.startupindia.gov.in/",
+      "deadline": "unknown",
+      "status": "unknown",
+      "sourceUrl": "https://seedfund.startupindia.gov.in/",
+      "lastVerified": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "id": "karnataka-elevate-nxt-2026",
+      "name": "Karnataka ELEVATE NxT 2026",
+      "type": "grant",
+      "provider": "Department of Electronics, IT, BT and S&T, Government of Karnataka (KITS)",
+      "eligibility": {
+        "sectors": ["deep tech", "deeptech"],
+        "cities": ["Bengaluru", "Karnataka"],
+        "notes": [
+          "Official pages describe a grant-in-aid for deep-tech startups; a companion ELEVATE Minorities track offers up to Rs 50 lakh.",
+          "TODO: verify entity-type, registration-in-Karnataka and company-age conditions on the official eligibility page.",
+          "Sources conflict on the deadline (13 Nov 2026 vs extended to 14 Dec 2026); a winners page also exists. Confirm status live before relying on it."
+        ]
+      },
+      "benefit": "Grant-in-aid of up to Rs 1 crore for selected deep-tech startups (per the official programme page), with mentorship.",
+      "applyUrl": "https://elevate.startupkarnataka.in/",
+      "deadline": "unknown",
+      "status": "unknown",
+      "sourceUrl": "https://eitbt.karnataka.gov.in/startup/public/149/elevate-nxt-2026/en",
+      "lastVerified": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "id": "karnataka-elevate-2026",
+      "name": "Karnataka ELEVATE 2026",
+      "type": "grant",
+      "provider": "Government of Karnataka (KITS)",
+      "eligibility": {
+        "cities": ["Bengaluru", "Karnataka"],
+        "notes": ["TODO: verify general ELEVATE eligibility, grant amount and dates on elevate.startupkarnataka.in. Not copied from secondary sources."]
+      },
+      "benefit": "Grant-in-aid support for early-stage startups in Karnataka. TODO: amount not verified.",
+      "applyUrl": "https://elevate.startupkarnataka.in/",
+      "deadline": "unknown",
+      "status": "unknown",
+      "sourceUrl": "https://elevate.startupkarnataka.in/",
+      "lastVerified": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "id": "kitven",
+      "name": "KITVEN (Karnataka IT Venture Capital Fund)",
+      "type": "vc",
+      "provider": "Government of Karnataka backed venture capital funds",
+      "eligibility": {
+        "cities": ["Bengaluru", "Karnataka"],
+        "notes": ["Investments are in startups with growth opportunities within Karnataka (per kitven.in). TODO: verify cheque size, stage and sector focus per fund."]
+      },
+      "benefit": "Government-backed venture capital investment in Karnataka startups. TODO: ticket size not verified.",
+      "applyUrl": "https://kitven.in",
+      "deadline": "unknown",
+      "status": "unknown",
+      "sourceUrl": "https://kitven.in",
+      "lastVerified": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "id": "microsoft-for-startups",
+      "name": "Microsoft for Startups (formerly Founders Hub)",
+      "type": "credits",
+      "provider": "Microsoft",
+      "eligibility": {
+        "notes": [
+          "Official application page: not raised Series C or later; not more than USD 350,000 in lifetime free Azure credits received.",
+          "Requires a new eligible personal Microsoft account; work or school accounts are not supported (official FAQ).",
+          "TODO: verify the activation flow for joiners after 29 May 2026 and the current credit tiers on the official page."
+        ]
+      },
+      "benefit": "Azure credits (credits, not cash). TODO: tiers and amounts not verified.",
+      "applyUrl": "https://www.microsoft.com/en-us/startups",
+      "deadline": "unknown",
+      "status": "unknown",
+      "sourceUrl": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/application",
+      "lastVerified": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "id": "claude-for-startups",
+      "name": "Claude for Startups",
+      "type": "credits",
+      "provider": "Anthropic",
+      "eligibility": {
+        "notes": [
+          "Official page: early-stage startup backed by one of Anthropic's partner venture capital firms.",
+          "Pages from the same site disagree on whether applications are open (one says the current cohort is full). Check live."
+        ]
+      },
+      "benefit": "API credits and higher rate limits (credits, not cash). TODO: amounts not verified.",
+      "applyUrl": "https://claude.com/programs/startups",
+      "deadline": "unknown",
+      "status": "unknown",
+      "sourceUrl": "https://claude.com/programs/startups",
+      "lastVerified": "2026-11-22T00:00:00.000Z"
+    }
+  ]
+}
